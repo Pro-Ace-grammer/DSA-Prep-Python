@@ -1,0 +1,22 @@
+Task 6: Factorial of a Number
+Write an algorithm to find the factorial of a number using both recursive and iterative approaches. Analyze the time and space complexity of both methods.
+
+# Iterative Algorithm:
+- For all the values form 1 to N.
+- multiply the values one by one to the previous product.
+- Keep multiplying for all the values till N.
+
+Time Complexity: O(N)
+Space Complexity: O(1)
+
+
+# Recursive Algorithm:
+- Call a function with argument N.
+- Check if N==1 which is the ase condition.
+- If true then return 1.
+- If not then calll the function multiplied by N, by passing the argument as (N-1) for the funciton.
+- And repeat the process till the base condition is true.
+- then return the factorial calculated.
+
+Time Complexity: O(N)
+Space Complexity: O(N)

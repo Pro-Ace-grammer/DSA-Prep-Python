@@ -1,0 +1,11 @@
+Task 7: Check if a Number is Prime
+Write an algorithm to check whether a given number is prime or not. Analyze its time and space complexity.
+
+# Algorithm:
+- For all the numbers from 2 to N-1 (lets say 'i').
+- check if N is divisible by any of the numbers (i)
+- if divisible then return False.
+- If not divisible by any of the numbers then return True.
+
+Time Complexity: O(N)
+Space Complexity: O(1)

@@ -1,0 +1,14 @@
+Task 2: Binary Search Algorithm
+Write an algorithm to perform binary search on a sorted array. Then, analyze its time and space complexity.
+
+Algorithm
+- Start
+- Find and store the middle index of the sorted Array and divide the array into two halves.
+- compare the middle index value, if it is equal to the target value, if equal then return its index.
+- if no match then we further check if the target value is greater than or smaller than the middle index value.
+- if target value is greater than middle index value then we further start searching the target value in the right half of the array.
+- If target value is smaller then we start searching from the left half of the array.
+- this process is continued until the key/target is found or the total search space is empty.
+
+Time complexity: O(log n)
+Space complexity: O(1)

@@ -1,0 +1,12 @@
+Task 4: Bubble Sort Algorithm
+Write an algorithm to sort an array using the bubble sort technique. Then, analyze its time and space complexity.
+
+# Algorithm:
+- for each element in an array
+- compare adjescent the elements and swap them if they are in the wrong order (i.e. if the right element is greater than the left one).
+- repeat this process for all the elements in an array.
+- After each full pass the largest element bubbles up to its correct position.
+- continue till the array is sorted.
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)

@@ -1,0 +1,9 @@
+Task 5: Reverse an Array
+Write an algorithm to reverse an array in place. Then, analyze its time and space complexity.
+
+#Algorithm:
+- Set two pointers as 'start' (which points to the 0th index) and 'end' (which points to the last index).
+- swap the values present at these two pointers. 
+- increment the 'start' and decrement the 'end'.
+- And repeat the process till the start is equal or greater than end.
+

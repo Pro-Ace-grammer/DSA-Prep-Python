@@ -1,0 +1,13 @@
+Task 3: Find the Maximum Element in an Array
+Write an algorithm to find the maximum element in an unsorted array. Then, analyze its time and space complexity.
+
+
+# ALGORITHM:
+- Initialize a variable, eg: take 'max_num' auxiliary space with -infinity as value.
+- for each element in the array 
+- check if the element is greater than the max_num value 
+- if yes then assign the elements value to the max_num, and if not then continue.
+- repeat the process for the entire lenght of the collection.
+
+Time complexity: O(n)
+Space complexity: O(1)
